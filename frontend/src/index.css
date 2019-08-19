@@ -1,0 +1,81 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  float: left;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.App-name {
+  color:white;
+  top: -15px;
+  position:relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.layout {
+  min-width: 1300px;
+}
+
+.mgmt-table {
+  min-width: 1000px;
+}
+
+.unit-form{
+  padding: 20px;
+}
+
+.add-mech {
+  margin-top: 30px;
+}
+
+.mech-detail-form{
+  margin-top: 100px;
+}
+
+.homepage-delete {
+  cursor: pointer;
+}
+
+
+.custom-filter-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.custom-filter-dropdown input {
+  width: 130px;
+  margin-right: 8px;
+}
+
+.custom-filter-dropdown button {
+  margin-right: 8px;
+}
+
+.highlight {
+  color: #f50;
+}
+
+.edit-modal-cell{
+  cursor: pointer;
+  color: dodgerblue;
+}
+
+.table-manager {
+  cursor: pointer;
+  color: dodgerblue;
+}
